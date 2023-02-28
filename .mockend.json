@@ -1,0 +1,14 @@
+{
+  "User": {
+    "_": {
+      "items": 50,
+      "data": [
+  { "name": "John Doe", "online": true, "picture": "https://…" }
+      ]
+    },
+    "name": { "string": {} },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" },
+    "posts": { "hasMany": "Post" }
+  }
+}
