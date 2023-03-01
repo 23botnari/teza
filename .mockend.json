@@ -1,14 +1,141 @@
+
 {
-  "User": {
-    "_": {
-      "items": 50,
-      "data": [
-  { "name": "John Doe", "online": true, "picture": "https://…" }
-      ]
+    "Phone": {
+        "_": {
+            "items": 11,
+            "data": [
+                {
+                    "phone_number": "(314) 834-7798",
+                    "company": "Misali",
+                    "driver_name": "Henry / TQL / Daniel",
+                    "truck_number": "122",
+                    "trailer_number": "4123",
+                    "mp_mobile_user_id": "63213822"
+                },
+                {
+                    "phone_number": "(929) 556-6437",
+                    "company": "Ford",
+                    "driver_name": "Eric / Victor WI-NY 2/28-3/2 1560256",
+                    "truck_number": "213",
+                    "trailer_number": "2335",
+                    "mp_mobile_user_id": "63213877"
+                },
+                {
+                    "phone_number": "(484) 376-5390",
+                    "company": "Zepto",
+                    "driver_name": "Richard/Daniel Transplace 1558084 WI-WA 2/27-3/3",
+                    "truck_number": "212",
+                    "trailer_number": "5648",
+                    "mp_mobile_user_id": "63214448"
+                },
+                {
+                    "phone_number": "(205) 855-7529",
+                    "company": "Nexta",
+                    "driver_name": "Vladimir / Greg |XPO 12872249 2/22-3/5",
+                    "truck_number": "024",
+                    "trailer_number": "8502",
+                    "mp_mobile_user_id": "63247146"
+                },
+                {
+                    "phone_number": "(970) 446-5434",
+                    "company": "Zepto",
+                    "driver_name": "Albert/ Denzel TQL 2/24-3/1",
+                    "truck_number": "221",
+                    "trailer_number": "3322",
+                    "mp_mobile_user_id": "63367559"
+                },
+                {
+                    "phone_number": "(314) 834-7798",
+                    "company": "Misali",
+                    "driver_name": "Dominic / Alex//T1 IL-NY 2/15 2/17 Victor TQL IL-CA 2/21-2/25// Julie Ally Logistics IL-PA 2/28-3/3",
+                    "truck_number": "122",
+                    "trailer_number": "4123",
+                    "mp_mobile_user_id": "63213822"
+                },
+                {
+                    "phone_number": "(314) 834-7798",
+                    "company": "Misali",
+                    "driver_name": "Henry / TQL / Daniel",
+                    "truck_number": "122",
+                    "trailer_number": "4123",
+                    "mp_mobile_user_id": "63213822"
+                },
+                {
+                    "phone_number": "(929) 556-6437",
+                    "company": "Ford",
+                    "driver_name": "Eric / Victor WI-NY 2/28-3/2 1560256",
+                    "truck_number": "213",
+                    "trailer_number": "2335",
+                    "mp_mobile_user_id": "63213877"
+                },
+                {
+                    "phone_number": "(484) 376-5390",
+                    "company": "Zepto",
+                    "driver_name": "Richard/Daniel Transplace 1558084 WI-WA 2/27-3/3",
+                    "truck_number": "212",
+                    "trailer_number": "5648",
+                    "mp_mobile_user_id": "63214448"
+                },
+                {
+                    "phone_number": "(205) 855-7529",
+                    "company": "Nexta",
+                    "driver_name": "Vladimir / Greg |XPO 12872249 2/22-3/5",
+                    "truck_number": "024",
+                    "trailer_number": "8502",
+                    "mp_mobile_user_id": "63247146"
+                },
+                {
+                    "phone_number": "(970) 446-5434",
+                    "company": "Zepto",
+                    "driver_name": "Albert/ Denzel TQL 2/24-3/1",
+                    "truck_number": "221",
+                    "trailer_number": "3322",
+                    "mp_mobile_user_id": "63367559"
+                },
+            ]
+        }
     },
-    "name": { "string": {} },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" },
-    "posts": { "hasMany": "Post" }
-  }
+    "Company": {
+        "_": {
+            "items": 6,
+            "data": [
+                {
+                    "name": "Zepto",
+                    "is_active": true,
+                    "created_at": "Dec 13, 2022",
+                    "updated_at": "Dec 14, 2022"
+                },
+                {
+                    "name": "Riva",
+                    "is_active": true,
+                    "created_at": "Jan 2, 2023",
+                    "updated_at": "Jan 2, 2023"
+                },
+                {
+                    "name": "Mejer",
+                    "is_active": true,
+                    "created_at": "Jan 24, 2023",
+                    "updated_at": "Jan 24, 2023"
+                },
+                {
+                    "name": "Nexta",
+                    "is_active": true,
+                    "created_at": "Jan 2, 2023",
+                    "updated_at": "Jan 2, 2023"
+                },
+                {
+                    "name": "Misali",
+                    "is_active": true,
+                    "created_at": "Dec 13, 2022",
+                    "updated_at": "Jan 2, 2023"
+                },
+                {
+                    "name": "Pennington",
+                    "is_active": true,
+                    "created_at": "Feb 6, 2023",
+                    "updated_at": "Feb 6, 2023"
+                }
+            ]
+        }
+    }
 }
