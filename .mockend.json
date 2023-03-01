@@ -1,5 +1,5 @@
 {
-    "Phones": {
+    "Phone": {
         "_": {
             "items": 15
         },
@@ -31,7 +31,7 @@
             "regexp": "[0-9]{6}"
         }
     },
-    "Companies": {
+    "Company": {
         "_": {
             "items": 15
         },
